@@ -1,5 +1,6 @@
 public class BombaExtra extends Bonus{
-    public BombaExtra(){
-        
+    
+    public BombaExtra(String img){
+        super(img);
     }
 }

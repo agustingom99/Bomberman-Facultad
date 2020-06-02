@@ -16,7 +16,6 @@ import java.text.*;
 
 
 public class Juego_Bomberman extends JGame {
-    //hola
 	Date dInit = new Date();
 	Date dAhora;
 	SimpleDateFormat ft = new SimpleDateFormat ("mm:ss");
@@ -25,7 +24,7 @@ public class Juego_Bomberman extends JGame {
     BufferedImage img_fondo = null;
     
     Heroe heroe = new Heroe();
-    Fantasma fantasma = new Fantasma();
+    //Fantasma fantasma = new Fantasma();
 
     public static void main(String[] args) {
 
@@ -46,7 +45,7 @@ public class Juego_Bomberman extends JGame {
 
         try{
             img_fondo = ImageIO.read(getClass().getResource("imagenes/fondox2.png"));
-            heroe.setImagen(ImageIO.read(getClass().getResource("imagenes/Sprite-individual-prueba.png")));
+            //heroe.setImagen(ImageIO.read(getClass().getResource("imagenes/Sprite-individual-prueba.png")));
             heroe.setPosicion(getWidth() / 2, getHeight() / 2 );
         }
         catch(Exception e){

@@ -1,5 +1,6 @@
 public class MasVelocidad extends Bonus{
-    public MasVelocidad(){
-        
+    
+    public MasVelocidad(String img){
+        super(img);
     }
 }

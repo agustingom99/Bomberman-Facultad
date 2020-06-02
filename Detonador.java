@@ -1,5 +1,6 @@
 public class Detonador extends Bonus{
-    public Detonador(){
-        
+    
+    public Detonador(String img){
+        super(img);
     }
 }

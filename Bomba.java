@@ -4,6 +4,10 @@ public class Bomba extends Objeto{
     private int rango;
     private int tiempo;
 
+    public Bomba(String img){
+        super(img);
+    }
+
     public void explotar(){
 
     }

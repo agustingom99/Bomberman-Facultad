@@ -1,7 +1,7 @@
 public class Puerta extends Objeto{
 
-    public Puerta(){
-
+    public Puerta(String img){
+        super(img);
     }
     
 

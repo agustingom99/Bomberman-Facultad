@@ -1,4 +1,5 @@
-public interface OyenteBonus {
+public interface OyenteBonus{
+    
     public void vidaExtra();
 
     public void abrirPuerta();

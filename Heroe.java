@@ -1,22 +1,9 @@
-import java.awt.image.*;  //imagenes
-import javax.imageio.*; //imagenes
-
-import java.io.IOException;
-
-
 public class Heroe extends Personaje{
     
-    private int vida;
-
-    private BufferedImage imagenheroe;
-
-  
+    private int vidas = 3;
 
     public Heroe(){
-        super(imagenheroe);
-
-        
-        imagen=imagenheroe;
+        super("/imagenes/heroe.png");
     }
 
     public void soltarBomba(){

@@ -1,3 +1,6 @@
 public class Salto extends Bonus{
-    public Salto(){}
+    
+    public Salto(String img){
+        super(img);
+    }
 }

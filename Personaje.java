@@ -9,8 +9,8 @@ public class Personaje extends Objeto{
 
     private Point2D.Double posicion  = new Point2D.Double();
 
-    public Personaje(BufferedImage _imagen){
-        this.imagen=_imagen;
+    public Personaje(String img){
+        super(img);
     }
 
     public void setImagen(BufferedImage img){

@@ -1,6 +1,6 @@
 public class VidaExtra extends Bonus{
-    public VidaExtra(){
-
+    
+    public VidaExtra(String img){
+        super(img);
     }
-  
 }
