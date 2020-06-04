@@ -16,7 +16,7 @@ import java.text.*;
 
 
 public class Juego_Bomberman extends JGame {
-    //holaaww
+    //holaa
 	Date dInit = new Date();
 	Date dAhora;
 	SimpleDateFormat ft = new SimpleDateFormat ("mm:ss");
