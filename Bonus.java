@@ -10,6 +10,6 @@ public class Bonus extends Objeto{
     }
 
     public void agregarOyenteBonus(){
-
+        
     }
 }
